@@ -12,18 +12,18 @@
 
 java程序需要在虚拟机上才可以运行，换言之只要有虚拟机的系统都可以运行java程序。不同系统上要安装对应的虚拟机才可以运行java程序
 
-# 开发步骤
+## 开发步骤
 
 1. 编写源文件 (.java)
 2. 编译源文件为类文件(.class)可用J2SE或J2EE编译
 3. 在虚拟机上运行
 
-# 注释
+## 注释
 
 - //单行注释
 - /* */多行注释
 
-# java内容介绍
+## java内容介绍
 
 java编程可以分成三个方向：
 1. java se (j2se)桌面开发  java中的基础中的基础
@@ -40,15 +40,15 @@ java编程可以分成三个方向：
 - java网络编程
 - java多线程编程
 
-# java ee基础1
+## java ee基础1
 - java面向对象编程--数据库编程-->java se
 - java 基础2
 - html--css--javascript-->div+css
 
-# java ee中级部分
+## java ee中级部分
 - Servlet--Jsp-->mvc模式
 
-# java ee高级部分
+## java ee高级部分
 - Struts--Ejb--Hibernate--Spring--Ajax(ext,dw2)-->ssh框架
 
 ## java之父gosling
@@ -60,7 +60,7 @@ java编程可以分成三个方向：
 - 1994 gosling参加硅谷大会演示java功能，震惊世界
 - 1995 sun正式发布java第一个版本，目前最新是jdk7.0
 
-# java开发工具
+## java开发工具
 - 记事本、(jcreator、jbuilder退出舞台了)、netbean、eclipse
 - 如何选择开发工具
 - 先选择记事本，对java有一定了解后再使用eclipse高级开发工具
@@ -69,22 +69,22 @@ java编程可以分成三个方向：
 1. 更深刻的理解java技术，培养代码感
 2. 有利于公司面试
 
-# java语言的特点
+## java语言的特点
 1. java语言是简单的
 2. java语言是面向对象的
 3. java语言是跨平台(操作系统)的[即一次编译，到处运行]
 4. java是高性能的
 
-# java第一个程序hello.java
-运行java程序要安装和配置jdk
-jdk是什么？
+## java第一个程序hello.java
+- 运行java程序要安装和配置jdk
+- jdk是什么？
 1. jdk全称java dvevlopment kit中文java开发工具包
 2. jdk是sun公司开发的
 3. jdk包括jre(java runtime envirnment)java运行环境、一堆java工具和java基础的类库(类共3600左右，常用类在150个左右)
-4. 可以在www.sun.com下载
+4. 可以在[www.sun.com](http://www.oracle.com/technetwork/java/javase/downloads/index.html)下载
 - 开发安装jdk,用户执行需要安装jre
 
-# 配置JDK
+### 配置JDK
 - 添加环境变量即可
 - windows下配置jdk
 - 在计算机属性--高级设置--环境变量--添加PATH将JDK所在路径指定即可。多个环境变量设置时需要用;号进行隔开
@@ -110,7 +110,7 @@ public class hello{
 2. 编译hello.java 使用javac hello.java
 3. 执行hello.java 使用java hello
 
-# java程序运行关系
+### java程序运行关系 
 1. java源文件(.java文件)
 2. java编译器即javac.exe
 3. java字节码文件(.class文件)
