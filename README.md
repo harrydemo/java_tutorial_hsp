@@ -2,7 +2,7 @@
 
 + [循序渐进学java从入门到精通 - 韩顺平](https://www.youtube.com/playlist?list=PL3rfV4zNE8CDPMYudVYZvNQU3LUQ72Mx0)
 
-* <a href="http://www.youtube.com/watch?feature=player_embedded&v=gA-2WUsloqQ&list=PL3rfV4zNE8CDPMYudVYZvNQU3LUQ72Mx0" target="_blank">第00讲 开山篇</a>
++ <a href="http://www.youtube.com/watch?feature=player_embedded&v=gA-2WUsloqQ&list=PL3rfV4zNE8CDPMYudVYZvNQU3LUQ72Mx0" target="_blank">第00讲 开山篇</a>
 
 # java平台
 
@@ -20,8 +20,8 @@ java程序需要在虚拟机上才可以运行，换言之只要有虚拟机的�
 
 ## 注释
 
-- //单行注释
-- /* */多行注释
++ //单行注释
++ /* */多行注释
 
 ## java内容介绍
 
@@ -32,39 +32,39 @@ java编程可以分成三个方向：
 
 
 # java se课程介绍
-* <a href="http://www.youtube.com/watch?feature=player_embedded&v=bTThn0Dqe1k&list=PL3rfV4zNE8CDPMYudVYZvNQU3LUQ72Mx0&index=2" target="_blank">第01讲 内容介绍 项目演示 原理剖析</a>
-- java面向对象编程(基础)
-- java图开界面开发
-- java数据库编程
-- java文件io流编程
-- java网络编程
-- java多线程编程
++ <a href="http://www.youtube.com/watch?feature=player_embedded&v=bTThn0Dqe1k&list=PL3rfV4zNE8CDPMYudVYZvNQU3LUQ72Mx0&index=2" target="_blank">第01讲 内容介绍 项目演示 原理剖析</a>
++ java面向对象编程(基础)
++ java图开界面开发
++ java数据库编程
++ java文件io流编程
++ java网络编程
++ java多线程编程
 
 ## java ee基础1
-- java面向对象编程--数据库编程-->java se
-- java 基础2
-- html--css--javascript-->div+css
++ java面向对象编程--数据库编程-->java se
++ java 基础2
++ html--css--javascript-->div+css
 
 ## java ee中级部分
-- Servlet--Jsp-->mvc模式
++ Servlet--Jsp-->mvc模式
 
 ## java ee高级部分
-- Struts--Ejb--Hibernate--Spring--Ajax(ext,dw2)-->ssh框架
++ Struts--Ejb--Hibernate--Spring--Ajax(ext,dw2)-->ssh框架
 
-## java之父gosling
+## java 之父 gosling
 
 [logo]: http://www.computinghistory.org.uk/userdata/images/medium/41/46/product-74146.jpg "James Gosling, the father of the Java programming language"
 
-- 1990 sun启动 绿色计划
-- 1992 创建oak语言-->java
-- 1994 gosling参加硅谷大会演示java功能，震惊世界
-- 1995 sun正式发布java第一个版本，目前最新是jdk7.0
++ 1990 sun启动 绿色计划
++ 1992 创建oak语言-->java
++ 1994 gosling参加硅谷大会演示java功能，震惊世界
++ 1995 sun正式发布java第一个版本，目前最新是jdk7.0
 
 ## java开发工具
-- 记事本、(jcreator、jbuilder退出舞台了)、netbean、eclipse
-- 如何选择开发工具
-- 先选择记事本，对java有一定了解后再使用eclipse高级开发工具
-- 为什么呢？
++ 记事本、(jcreator、jbuilder退出舞台了)、netbean、eclipse
++ 如何选择开发工具
++ 先选择记事本，对java有一定了解后再使用eclipse高级开发工具
++ 为什么呢？
 
 1. 更深刻的理解java技术，培养代码感
 2. 有利于公司面试
@@ -76,18 +76,18 @@ java编程可以分成三个方向：
 4. java是高性能的
 
 ## java第一个程序hello.java
-- 运行java程序要安装和配置jdk
-- jdk是什么？
++ 运行java程序要安装和配置jdk
++ jdk是什么？
 1. jdk全称java dvevlopment kit中文java开发工具包
 2. jdk是sun公司开发的
 3. jdk包括jre(java runtime envirnment)java运行环境、一堆java工具和java基础的类库(类共3600左右，常用类在150个左右)
 4. 可以在[www.sun.com](http://www.oracle.com/technetwork/java/javase/downloads/index.html)下载
-- 开发安装jdk,用户执行需要安装jre
++ 开发安装jdk,用户执行需要安装jre
 
 ### 配置JDK
-- 添加环境变量即可
-- windows下配置jdk
-- 在计算机属性--高级设置--环境变量--添加PATH将JDK所在路径指定即可。多个环境变量设置时需要用;号进行隔开
++ 添加环境变量即可
++ windows下配置jdk
++ 在计算机属性--高级设置--环境变量--添加PATH将JDK所在路径指定即可。多个环境变量设置时需要用;号进行隔开
 
 1. 编写第一个hello.java
 ```java
@@ -107,17 +107,21 @@ public class hello{
       }
 }
 ```
-2. 编译hello.java 使用javac hello.java
-3. 执行hello.java 使用java hello
+2. 编译hello.java 使用`javac hello.java`
+3. 执行hello.java 使用`java hello`
 
-### java程序运行关系 
+### java程序运行关系
 1. java源文件(.java文件)
 2. java编译器即javac.exe
 3. java字节码文件(.class文件)
 4. 由解释执行器即(java.exe)将字节码文件加载到java虚拟器(jvm)
 5. 字节码文件(.class)就会在java虚拟机中执行
 
-对hello.java程序进行改过使之变为一个简单的加法运算程序
+
+# <a href="http://www.youtube.com/watch?feature=player_embedded&v=PktuOmzeG44&index=3&list=PL3rfV4zNE8CDPMYudVYZvNQU3LUQ72Mx0" target="_blank">第02讲 变量 数据类型</a>
+
+
+## 对hello.java程序进行改过使之变为一个简单的加法运算程序
 ```java
 //注释 (解释) 作者：
 //功能：在控制台显示"hello"
@@ -132,8 +136,8 @@ public class jiafa{
         //System：是一个包
         //out.println是输入函数
         // System.out.println("hello!");
-	    int a=10;//定义一个变量，变量名a，它的值10
-	int b=20;//定义一个变量，变量名b，它的值20
+        int a=10;//定义一个变量，变量名a，它的值10
+        int b=20;//定义一个变量，变量名b，它的值20
         int result=a+b;//定义一个叫result变量将变量ab相加的值赋值给result
         //输出结果
         System.out.println("结果是"+result);
@@ -141,17 +145,18 @@ public class jiafa{
 }
 ```
 ----------------------------------------------------------------
-为什么有变量
+## 为什么有变量
+
 不论是使用哪种高级程序语言编写程序，变量都是其程序的基本组成单位。java中的基本数据类型的定义与c/c++中大体一致。
 ```java
 public class Test{
-	public static void main(String []args){
-	  int a=1;//定义一个整形变量，取名a，并赋初值1
-	  int b=3;//定义一个整形变量，取名b，并赋初值3
-	  b=89;//给变量b赋89
-	  System.out.println(a);//输出语句，把变量a的值输出
-	  System.out.println(b);//把变量b的值输出
-	}
+    public static void main(String []args){
+      int a=1;//定义一个整形变量，取名a，并赋初值1
+      int b=3;//定义一个整形变量，取名b，并赋初值3
+      b=89;//给变量b赋89
+      System.out.println(a);//输出语句，把变量a的值输出
+      System.out.println(b);//把变量b的值输出
+    }
 }
 ```
 ----------------------------------------------------------------
