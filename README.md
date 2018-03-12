@@ -32,7 +32,7 @@ java编程可以分成三个方向：
 
 
 # java se课程介绍
-+ <a href="http://www.youtube.com/watch?feature=player_embedded&v=bTThn0Dqe1k&list=PL3rfV4zNE8CDPMYudVYZvNQU3LUQ72Mx0&index=2" target="_blank">第01讲 内容介绍 项目演示 原理剖析</a>
+# <a href="http://www.youtube.com/watch?feature=player_embedded&v=bTThn0Dqe1k&list=PL3rfV4zNE8CDPMYudVYZvNQU3LUQ72Mx0&index=2" target="_blank">第01讲 内容介绍 项目演示 原理剖析</a>
 + java面向对象编程(基础)
 + java图开界面开发
 + java数据库编程
@@ -196,49 +196,58 @@ java基本数据类型 四大类型
 ```
 
 
-# java基本语法--定义变量，初始化，赋值
-## 定义变量
-1、什么是定义变量？
-int a; 这就是定义了一个变量，变量名是a
-float haha;这也定义了一个变量，表示一个float类型的小数，变量名是haha
+## java基本语法--定义变量，初始化，赋值
+### 定义变量
+1. 什么是定义变量？
++ int a; 这就是定义了一个变量，变量名是a
++ float haha;这也定义了一个变量，表示一个float类型的小数，变量名是haha
 
-## 初始化变量
-在定义变量的时候，就给值
-int a=45;这就是初始化变量a
-## 给变量赋值
-比如你先定义了变量：int tt;
-然后再给值tt=780;  ->这就是给变量赋值
+### 初始化变量
++ 在定义变量的时候，就给值
++ int a=45;这就是初始化变量a
+### 给变量赋值
++ 比如你先定义了变量：int tt;
++ 然后再给值tt=780;  ->这就是给变量赋值
 
 ----------------------------------------------------------------
 # java基本语法--基本数据类型转换
 ## 自动转换
-int a=1.2;     double b=3;
-结论：数据类型可以自动的从低精度-->高精度。高精度不能转为低精度。
-byte小于<short小于<int小于<long小于<float小于<double
-在java中的小数默认是double数据类型
-float赋值时要在值后加f
-long赋值时要在值后加l
++ int a=1.2;     double b=3;
+>结论：数据类型可以自动的从低精度-->高精度。高精度不能转为低精度。
++ byte小于<short小于<int小于<long小于<float小于<double
++ 在java中的小数默认是double数据类型
++ float赋值时要在值后加f
++ long赋值时要在值后加l
 
 ## 强制转换
 如何把高精度转成低精度？
+```java
 int a=(int)1.2;
-练习int a=1;          int a=1;
-    double b=4.5;     double b=4.5;
-    a=b;              b=a;
-    报错              成功
+```
+>练习
+```java
+int a=1;          int a=1;
+double b=4.5;     double b=4.5;
+a=b;              b=a;
+报错              成功
 
 ## 计算过程中的转换
 int a=3;
 int b=a+3.4;
-结论：当一个整数和一个double运算的时候，运算结果会向高精度转换
- 
+```
+>结论：当一个整数和一个double运算的时候，运算结果会向高精度转换
+
 
 # java 基本语法--运算符
-java中常用的算术运算符是：+加、-减、*乘、/除、%取模
-其实%运算可以得到两个数的余数。
+
+视频： <a href="http://www.youtube.com/watch?feature=player_embedded&v=HwG_TsjUWzc&list=PL3rfV4zNE8CDPMYudVYZvNQU3LUQ72Mx0&index=4" target="_blank">第03讲 运算符 流程控制</a>
+
++ java中常用的算术运算符是：`+加、-减、*乘、/除、%取模`
++ 其实`%`运算可以得到两个数的余数。
 
 ## 算术运算符：++自加、--自减。
 这两个运算符比较特殊，请大家思考一下：
+```java
 int a=90;
 a++;          等同于(a=a+1)
 这时a等于？ 91
@@ -253,10 +262,11 @@ System.out.println(b); 56
 System.out.println(a); 57
 ***int b=++a;相当于a=a+1再将b=a；
    int b=a++;相当于b=a再将a=a+1。
-
+```
 ----------------------------------------------------------------
 ## 算术运算符：+=左加、-=左减、/=左除、%=左取模
 请大家看看几个案例，就明白了：
+```java
 int a=90;
 a+=90;           (相当于a=a+90)
 请问，a现在等于多少？ 180
@@ -270,7 +280,7 @@ a-=34;b%=a;       (相当于a=a-34,b=b%a)
 System.out.println(b); 2
 System.out.println(a); 22
 ----------------------------------------------------------------
-
+```
 运算符
 ## 关系运算符
 1、==等于；2、>大于；3、<小于；4、>=大于等于；5、<=小于等于；6、!=不等于
